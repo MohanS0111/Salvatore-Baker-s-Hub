@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
 
+# Description
+Welcome to Salvatore Baker's Hub, where every treat is a sweet symphony!
+
+## Features
+- Order a variety of baked goods, chocolates, cookies, and cupcakes.
+- Customize your order with options like cake type, weight, and quantity.
+- View and edit product details.
+- Secure and easy-to-use user authentication.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
