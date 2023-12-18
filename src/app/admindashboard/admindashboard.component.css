@@ -1,0 +1,51 @@
+.allchips{
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+.chips:hover{
+    background-color: red;
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+.chips:active{
+    opacity: 20;
+    cursor: pointer;
+}
+
+.chips{
+    background-color: whitesmoke;
+}
+
+p{
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 10px;
+    color: black;
+}
+
+p:hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.logout-section{
+    position: fixed;
+    right: 30px;
+    bottom:30px;
+}
+
+.logout-button{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: red;
+    color: red;
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+.logout-button:hover{
+    background-color: red;
+    color: whitesmoke;
+    cursor: pointer;
+}

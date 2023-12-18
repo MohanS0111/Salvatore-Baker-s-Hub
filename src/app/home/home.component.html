@@ -1,0 +1,31 @@
+<div class="grid-container">
+  <div class="starting-part">
+    <h1 class="mat-h1">Indulge in Delight, Every Treat a Sweet Symphony!</h1>
+    <app-search (searchQuery)="filterByName($event)"></app-search>
+  </div>
+
+  <div>
+    <app-tags (filteredQuery)="filterbyCategory($event)"></app-tags>
+  </div>
+
+  <mat-grid-list cols="4" rowHeight="420px">
+    <mat-grid-tile *ngFor="let iteratedbakeryitems of fetchedBakeryItems">
+      <a routerLink="viewDetails/{{ iteratedbakeryitems.id }}">
+        <mat-card class="dashboard-card">
+          <mat-card-header>
+            <mat-card-title class="title">
+              {{ iteratedbakeryitems.name }}
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content class="dashboard-card-content">
+            <div>
+              <img class="image" src="{{ iteratedbakeryitems.imageUrl }}"width="100%"/>
+              <p class="price">Price:{{ iteratedbakeryitems.price}}</p>
+              <p class="star"><span class="star-icon">&#9733;</span>Rating:{{ iteratedbakeryitems.stars}}</p>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </a>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

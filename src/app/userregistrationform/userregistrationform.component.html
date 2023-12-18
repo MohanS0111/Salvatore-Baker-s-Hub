@@ -1,0 +1,79 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+<div class="user-details-form-container">
+    <h2>User Registration Form</h2>
+
+    <form [formGroup]="userDetailsForm" (ngSubmit)="onSubmit()">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter Your Name" formControlName="name" id="name">
+        <mat-error *ngIf="userDetailsForm.get('name')?.hasError('required')">
+            Name is required
+        </mat-error>
+      
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" placeholder="Enter Your Mobile Number" formControlName="phoneNumber" id="phoneNumber">
+        <mat-error *ngIf="userDetailsForm.get('phoneNumber')?.hasError('required')">
+            PhoneNumber is required
+        </mat-error>
+        <mat-error *ngIf="userDetailsForm.get('phoneNumber')?.hasError('minlength')">
+            Phone Number must be at least 10 digits
+        </mat-error>
+      
+        <label for="emailAddress">Email Address:</label>
+        <input type="email" placeholder="Enter Your Email Address" formControlName="emailAddress" id="emailAddress">
+        <mat-error *ngIf="userDetailsForm.get('emailAddress')?.hasError('required')">
+            Email is required
+        </mat-error>
+        <mat-error *ngIf="userDetailsForm.get('emailAddress')?.hasError('email')">
+            Invalid Email Address
+        </mat-error>
+      
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter Password" formControlName="password" id="password">
+        <mat-error *ngIf="userDetailsForm.get('password')?.hasError('required')">
+            Password is required
+        </mat-error>
+        <mat-error *ngIf="userDetailsForm.get('password')?.hasError('minlength')">
+            Minimum length is 8
+        </mat-error>
+      
+        <div formGroupName="address" class="address-part">
+          <label for="doorNo">Door No:</label>
+          <input type="text" placeholder="Enter DoorNo" formControlName="doorNo" id="doorNo">
+          <mat-error *ngIf="userDetailsForm.get('doorNo')?.hasError('required')">
+            DoorNo is required
+          </mat-error>
+      
+          <label for="streetName">Street Name:</label>
+          <input type="text" placeholder="Enter Street Name" formControlName="streetName" id="streetName">
+          <mat-error *ngIf="userDetailsForm.get('streetName')?.hasError('required')">
+            StreetName is required
+          </mat-error>
+      
+          <label for="city">City:</label>
+          <input type="text" placeholder="Enter City Name" formControlName="city" id="city">
+          <mat-error *ngIf="userDetailsForm.get('city')?.hasError('required')">
+            City is required
+          </mat-error>
+      
+          <label for="state">State:</label>
+          <input type="text" placeholder="Enter State Name" formControlName="state" id="state">
+          <mat-error *ngIf="userDetailsForm.get('state')?.hasError('required')">
+            State is required
+          </mat-error>
+      
+          <label for="pincode">Pincode:</label>
+          <input type="text" placeholder="Enter PinCode" formControlName="pincode" id="pincode">
+          <mat-error *ngIf="userDetailsForm.get('pincode')?.hasError('required')">
+            Pincode is required
+          </mat-error>
+        </div>
+      
+        <button type="submit" [disabled]="!userDetailsForm.valid">Register</button>
+
+        <h3 class="clickhere">Already Have an Account - <a routerLink="/user-login">Click here</a></h3>
+      </form>
+      
+</div>

@@ -1,0 +1,80 @@
+.user-details-form-container {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+   
+  }
+  
+  h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: red;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 15px;
+  }
+  
+  mat-form-field {
+    width: 100%;
+  }
+  
+  mat-label {
+    color: red;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  mat-error {
+    color: red;
+  }
+  
+  .example-button-row {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  button {
+    font-family: 'Kaushan Script', cursive;
+    background-color: red;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    font-family: 'Kaushan Script', cursive;
+    background-color: darkred;
+  }
+
+  mat-error {
+    font-size: 12px;
+    margin-top: -10px; 
+  }
+
+  .clickhere{
+    font-family: 'Kaushan Script', cursive;
+    color: red;
+  }
+  

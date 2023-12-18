@@ -1,0 +1,23 @@
+<div class="user-details-form-container">
+    <h2>Login</h2>
+    <form [formGroup]="loginDetailsForm" (ngSubmit)="onSubmit()">
+
+
+        <label for="emailAddress">Email Address:</label>
+        <input type="email" placeholder="Enter Your Email Address" formControlName="emailAddress" id="emailAddress">
+        <mat-error *ngIf="loginDetailsForm.get('emailAddress')?.hasError('required')">
+            Email is required
+        </mat-error>
+      
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter Password" formControlName="password" id="password">
+        <mat-error *ngIf="loginDetailsForm.get('password')?.hasError('required')">
+            Password is required
+        </mat-error>
+
+        <button type="submit" [disabled]="!loginDetailsForm.valid">Login</button>
+        
+        <h3 class="clickhere">Don't Have an Account - <a routerLink="/user-registration-form">Click here</a></h3>
+
+    </form>
+</div>

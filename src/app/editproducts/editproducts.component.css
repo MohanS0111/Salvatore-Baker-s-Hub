@@ -1,0 +1,72 @@
+ .edit-products-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: red;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  th {
+    background-color: red;
+    color: white;
+  }
+  
+  .icons, .deletebutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+    border: none;
+  }
+  
+  .icons:hover, .deletebutton:hover {
+    background-color: #ddd;
+  }
+  
+  mat-icon {
+    margin-right: 5px;
+  }
+  
+  .deletebutton {
+    color: red;
+  }
+
+  @media screen and (max-width: 600px) {
+    th, td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    th, td {
+      text-align: center;
+    }
+  
+    .address-column {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,12 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+
+<div class="category">
+    <mat-chip-listbox class="allchips">
+      <mat-chip class="chips" *ngFor="let category of bakeryCategories" (click)="onCategorySelected(category)">
+        <p>{{ category }}</p>
+      </mat-chip>
+    </mat-chip-listbox>
+</div>

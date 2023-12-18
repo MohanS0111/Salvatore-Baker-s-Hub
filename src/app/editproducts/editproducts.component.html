@@ -1,0 +1,42 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+
+<div class="edit-products-container">
+    <h2>Edit Products</h2>
+
+    <table>
+      <tr>
+        <th>Product ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Stars</th>
+        <th>Image</th>
+        <th>Description</th>
+        <th>Delivery Time</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+      <tr *ngFor = "let products of dataSource">
+        <td>{{ products.id }}</td>
+        <td>{{ products.name}}</td>
+        <td>{{ products.price }}</td>
+        <td>{{ products.category }}</td>
+        <td>{{ products.stars }}</td>
+        <td><img class="image" src="{{ products.imageUrl }}"width="100%"/></td>
+        <td>{{ products.description }}</td>
+        <td>{{ products.deliveryTime }}</td>
+        <td>  <a routerLink="/edit-products-individually/{{products.id}}" class="icons" mat-stroked-button>
+                           <mat-icon>edit</mat-icon>
+              </a>
+        </td>
+        <td>  <a class="deletebutton" (click)="delete(products.id)"><mat-icon>delete</mat-icon>
+              </a>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  

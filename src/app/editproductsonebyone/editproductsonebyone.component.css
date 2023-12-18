@@ -1,0 +1,67 @@
+.edit-note-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: red;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  mat-form-field {
+    width: 100%;
+  }
+  
+  mat-label {
+    color: black;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  mat-error {
+    color: red;
+  }
+  
+  .example-button-row {
+    text-align: center;
+    border: none;
+  }
+  
+  button {
+    background-color: red;
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
+  

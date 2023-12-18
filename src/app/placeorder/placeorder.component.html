@@ -1,0 +1,102 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+<div class="user-details-form-container">
+    <h2>Place Your Order</h2>
+  
+    <form [formGroup]="orderForm" (ngSubmit)="onSubmit()">
+  
+      <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="Enter Your Name" formControlName="name" [readonly]="true">
+        <mat-error *ngIf="orderForm.get('name')?.hasError('required')">Name is required</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Phone Number</mat-label>
+        <input matInput placeholder="Enter Your Mobile Number" formControlName="phoneNumber" [readonly]="true">
+        <mat-error *ngIf="orderForm.get('phoneNumber')?.hasError('required')">Phone Number is required</mat-error>
+        <mat-error *ngIf="orderForm.get('phoneNumber')?.hasError('pattern')">Invalid phone number</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Email Address</mat-label>
+        <input matInput placeholder="Enter Your Email Address" formControlName="emailAddress" [readonly]="true">
+        <mat-error *ngIf="orderForm.get('emailAddress')?.hasError('required')">Email Address is required</mat-error>
+        <mat-error *ngIf="orderForm.get('emailAddress')?.hasError('email')">Invalid email address</mat-error>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Product Name</mat-label>
+        <input matInput placeholder="Enter the Product Name" formControlName="productName" [readonly]="true">
+        <mat-error *ngIf="orderForm.get('productName')?.hasError('required')">Product Name is required</mat-error>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Product Price</mat-label>
+        <input matInput placeholder="Enter the Product Price" formControlName="productPrice" [readonly]="true">
+        <mat-error *ngIf="orderForm.get('productPrice')?.hasError('required')">Product Price is required</mat-error>
+      </mat-form-field>
+
+      <mat-form-field >
+        <mat-label>Product Type</mat-label>
+        <input matInput placeholder="Enter Product Type" formControlName="productType" [readonly]="true">
+        <mat-error *ngIf="orderForm.get('productType')?.hasError('required')">Product Type is required</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field *ngIf="orderForm.get('productType')?.value == 'Cakes'">
+        <mat-label>Cake Type</mat-label>
+        <mat-select formControlName="cakeType">
+          <mat-option *ngFor="let caketype of types" [value]="caketype">
+            {{ caketype }}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="orderForm.get('cakeType')?.hasError('required')">Cake Type is required</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field *ngIf="orderForm.get('productType')?.value == 'Cakes'">
+        <mat-label>Cake Weight</mat-label>
+        <mat-select formControlName="cakeWeight">
+          <mat-option *ngFor="let cakeweight of weights" [value]="cakeweight">
+            {{ cakeweight }}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="orderForm.get('cakeWeight')?.hasError('required')">Cake Weight is required</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Choose Quantity</mat-label>
+        <mat-select formControlName="quantity">
+          <mat-option *ngFor="let quantity of quantity" [value]="quantity">
+            {{ quantity }}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="orderForm.get('quantity')?.hasError('required')">Quantity is required</mat-error>
+        <mat-error *ngIf="orderForm.get('quantity')?.hasError('min')">Quantity must be at least 1</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Enter Address</mat-label>
+        <textarea matInput placeholder="Enter Delivery Address" formControlName="deliveryaddress"></textarea>
+        <mat-error *ngIf="orderForm.get('deliveryaddress')?.hasError('required')">Address is required</mat-error>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Payment Mode</mat-label>
+        <input matInput placeholder="Choode your Payment Mode" formControlName="paymentMode" [readonly]="true">
+        <mat-error *ngIf="orderForm.get('paymentMode')?.hasError('required')">Payment Mode is required</mat-error>
+      </mat-form-field>
+
+  
+      <mat-form-field>
+        <mat-label>Total Amount</mat-label>
+        <input matInput placeholder="Total Amount" formControlName="total" [readonly]="true">
+        <mat-error *ngIf="orderForm.get('total')?.hasError('required')">Total Amount is required</mat-error>
+      </mat-form-field>
+  
+      <button type="submit" [disabled]="!orderForm.valid">Order Now</button>
+  
+    </form>
+  </div>
+  

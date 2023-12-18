@@ -1,0 +1,45 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <mat-toolbar class="menu-heading">Menu</mat-toolbar>
+    <mat-nav-list>
+      <a routerLink="home" mat-list-item><h2 class="menu-heading">Home</h2></a>
+      <a *ngIf="auth.isAdminLoggedIn==true && auth.isUserLoggedIn==false" routerLink="admin-view"mat-list-item><h2 class="menu-heading">Admin</h2></a>
+      <a *ngIf="auth.isUserLoggedIn==true" routerLink="myorders" mat-list-item><h2 class="menu-heading">My Orders</h2></a>
+      <button *ngIf="auth.isUserLoggedIn==true" class="logout-button" mat-list-item (click)="loggingOut()"><h2 class="menu-heading">Logout</h2></button>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+        <button
+          type="button"
+          aria-label="Toggle sidenav"
+          mat-icon-button
+          (click)="drawer.toggle()">
+          <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        </button>
+      <span class="title">Salvatore Baker's Hub</span>
+      
+      <div class="spacer"></div>
+      <div class="logos">
+        <a class="loginform" *ngIf="auth.isAdminLoggedIn==false && auth.isUserLoggedIn==false" routerLink="user-login" mat-stroked-button>
+            <mat-icon>account_circle</mat-icon>
+            <p class="login-name">Login</p>
+        </a>
+         <div class="logo-space"></div>
+         <a class="registrationform" *ngIf="auth.isAdminLoggedIn==false && auth.isUserLoggedIn==false" routerLink="user-registration-form" mat-stroked-button>
+              <mat-icon>assignment_ind</mat-icon>
+              <p class="register-name">Register</p>
+         </a>
+         <h2 class="username" *ngIf="auth.isAdminLoggedIn==true || auth.isUserLoggedIn==true">{{auth.username}}</h2>
+      </div>
+    </mat-toolbar>
+   <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

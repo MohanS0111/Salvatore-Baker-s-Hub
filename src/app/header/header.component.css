@@ -1,0 +1,99 @@
+.title{
+  font-family: 'Kaushan Script', cursive;
+  color: whitesmoke;
+  flex: 1;
+}
+
+.menu-heading{
+  font-family: 'Kaushan Script', cursive;
+  color: whitesmoke;
+}
+
+.spacer{
+  flex: 1;
+}
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  background-color: red;
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background-color: red;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color:red;
+}
+
+.logos{
+  display: flex;
+  align-items: center;
+}
+
+
+.logo-space {
+  width: 16px;
+}
+
+.registrationform{
+  border: none;
+  padding-right: 1%;
+}
+
+.loginform{
+  border: none;
+  padding-right: 1%;
+}
+
+.logout-button{
+  border: none;
+  text-align: start;
+}
+
+.login-icon{
+  margin-left: 1%;
+}
+
+.username{
+  font-family: 'Kaushan Script', cursive;
+  color: whitesmoke;
+}
+
+.login-name{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  font-family: 'Kaushan Script', cursive;
+  color: whitesmoke;
+  color: transparent; /* Initially, set color to transparent */
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+.register-name{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  font-family: 'Kaushan Script', cursive;
+  color: whitesmoke;
+  z-index: 1;
+  color: transparent; 
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+.login-name:hover {
+  color: whitesmoke;
+}
+
+.register-name:hover {
+  color: whitesmoke;
+}

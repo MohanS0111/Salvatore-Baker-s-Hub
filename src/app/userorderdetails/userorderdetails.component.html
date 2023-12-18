@@ -1,0 +1,45 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+
+<div class="my-orders-container">
+    <h2>My Orders</h2>
+
+    <table>
+      <tr>
+        <th>Order ID</th>
+        <th>Customer Name</th>
+        <th>Customer Phone Number</th>
+        <th>Customer Email ID</th>
+        <th>Product Name</th>
+        <th>Product Type</th>
+        <th>Cake Type</th>
+        <th>Cake Weight</th>
+        <th>Quantity</th>
+        <th>Product Price</th>
+        <th>Delivery Address</th>
+        <th>Date/Time</th>
+        <th>Total Amount</th>
+        <th>Payment Mode</th>
+      </tr>
+      <tr *ngFor = "let allorders of userordersdata">
+        <td>{{ allorders.id }}</td>
+        <td>{{ allorders.name}}</td>
+        <td>{{ allorders.phoneNumber }}</td>
+        <td>{{ allorders.emailAddress}}</td>
+        <td>{{ allorders.productName }}</td>
+        <td>{{ allorders.productType }}</td>
+        <td>{{ allorders.cakeType }}</td>
+        <td>{{ allorders.cakeWeight }}</td>
+        <td>{{ allorders.quantity }}</td>
+        <td>{{ allorders.productPrice }}</td>
+        <td>{{ allorders.deliveryaddress }}</td>
+        <td>{{ allorders.dateandtime }}</td>
+        <td>{{ allorders.total }}</td>
+        <td>{{ allorders.paymentMode }}</td>
+      </tr>
+    </table>
+  </div>
+
+  

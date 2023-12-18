@@ -1,0 +1,76 @@
+.oneProduct {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+}
+
+.add-to-cart-button {
+    background-color: red;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.add-to-cart-button:hover {
+    opacity: 0.9;
+    color: black;
+}
+
+.image{
+    border-radius: 10px;
+}
+
+.title{
+    color: red;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.description{
+    color: black;
+    text-decoration: underline;
+}
+
+.rating{
+    color: black;
+}
+
+
+.star-icon {
+    color: gold
+}
+
+.category{
+    color: black;
+}
+
+.price{
+    color: black;
+}
+
+.deliveryTime{
+    color: black;
+}
+
+.info{
+    display: flex;
+    color: red;
+    font-family: 'Kaushan Script', cursive;
+    justify-content: center;
+    align-items: center;
+}

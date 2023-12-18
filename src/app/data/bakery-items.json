@@ -1,0 +1,632 @@
+{
+  "bakery-items": [
+    {
+      "id": 1,
+      "name": "Black Forest",
+      "price": 1000,
+      "imageUrl": "assets/Bakery-images/Black-forest.jpg",
+      "category": "Cakes",
+      "stars": 5,
+      "deliveryTime": "50 mins to 1 hour",
+      "description": "Who Doesn't At Like An Extra Chocolate On Their Cake. Here Is Our Special Chocolate Topped Black Forest Cake For Your Birthday/ Anniversary Cake."
+    },
+    {
+      "id": 2,
+      "name": "BlueBerry Mango",
+      "price": "980",
+      "imageUrl": "assets/Bakery-images/Stylish-blueberry-mango.jpg",
+      "category": "Cakes",
+      "stars": 4,
+      "deliveryTime": "40 mins to 50 mins",
+      "description": "Latest Style , You Like Mango She Likes Blueberries, Both Are Best Fruits, But To Gather They Are A Blast, We Came Up To Balance This Flavor Together As Blueberry Mango Cake For Your Birthday Cake Valentine's Day Cake And Anniversary Cake"
+    },
+    {
+      "id": 3,
+      "name": "Almond Truffle",
+      "price": 670,
+      "imageUrl": "assets/Bakery-images/Almond-Truffle-Chocolate-Cake-1.jpg",
+      "category": "Cakes",
+      "stars": 5,
+      "deliveryTime": "30 mins to 40 mins",
+      "description": "Chocolate Heaven Filled With Nutty Almond For Your Taste Buds , Crunchy Creamy Rich Chocolate Truffle Cake."
+    },
+    {
+      "id": 4,
+      "name": "Truffle Pista",
+      "price": 670,
+      "imageUrl": "assets/Bakery-images/Truffle-Pista-Chocolate.jpg",
+      "category": "Cakes",
+      "stars": "5",
+      "deliveryTime": "30 mins to 40 mins",
+      "description": "Chocolate Heaven Filled With Freshly Roasted Pista For Your Taste Buds , Crunchy Creamy Rich Chocolate Truffle Cake."
+    },
+    {
+      "id": 5,
+      "name": "Butter Scotch",
+      "price": 500,
+      "imageUrl": "assets/Bakery-images/Butter-Scotch.jpg",
+      "category": "Cakes",
+      "stars": 4.7,
+      "deliveryTime": "20 mins to 30 mins",
+      "description": "Caramelised cashwnuts of butter scotch cake filled in layers with no presevatives freshly made and garnished with chocolates and butter scotch nuts for your birthday cakes."
+    },
+    {
+      "id": 6,
+      "name": "Strawberry",
+      "price": 500,
+      "imageUrl": "assets/Bakery-images/Strawberry.jpg",
+      "category": "Cakes",
+      "stars": 4.3,
+      "deliveryTime": "20 mins to 30 hour",
+      "description": "Fresh Strawberry crush filled with cream & every layer is delicious mouth watering cake, colourful & tasty Strawberry birthday cake."
+    },
+    {
+      "id": 7,
+      "name": "Mango",
+      "price": 500,
+      "imageUrl": "assets/Bakery-images/Mango.jpg",
+      "category": "Cakes",
+      "stars": 4.2,
+      "deliveryTime": "20 mins to 30 hour",
+      "description": "King of fruits, mango, nothing can beat it, you can have it in your cake now, Most delicious mango cake."
+    },
+    {
+      "id": 8,
+      "name": "Pine-Apple",
+      "price": 500,
+      "imageUrl": "assets/Bakery-images/Pine-Apple.jpg",
+      "category": "Cakes",
+      "stars": 4,
+      "deliveryTime": "20 mins to 30 hour",
+      "description": "Your like pine apple , we like pine apple, creamy cake with no artifical flavours Best birthday cake. Pineapple cake."
+    },
+    {
+      "id": 9,
+      "name": "White Forest",
+      "price": "2300",
+      "imageUrl": "assets/Bakery-images/white-forest-birthday-cake.jpg",
+      "category": "Cakes",
+      "stars": 5,
+      "deliveryTime": "1 hour to 2 hour",
+      "description": "White Chocolate, White Forest With Cherries, Tastes With Its Milky Texture And Melts In The Mouth. Lets Have A Beautiful Cake That Can Stay On Our Memories On All Our Special Occasions."
+    },
+    {
+      "id": 10,
+      "name": "Rich-Rasamalai",
+      "price": 2000,
+      "imageUrl": "assets/Bakery-images/rich-rasamalai-birthday.jpg",
+      "category": "Cakes",
+      "stars": 5,
+      "deliveryTime": "1 hour to 2 hour",
+      "description": "Rasamalai For Dessert? Rasamalai Is Your Favouite, Lets Bring It To Your Table The Special Fusion Rasamalai Cake An Indian Dessert That Melts In Your Mouth . Enjoy Rasamalai Cake"
+    },
+    {
+      "id": 11,
+      "name": "Chocolate And Oreo",
+      "price": 2000,
+      "imageUrl": "assets/Bakery-images/chocolate-and-oreo.jpg",
+      "category": "Cakes",
+      "stars": 5,
+      "deliveryTime": "1 hour to 2 hour",
+      "description": "Chocolate And Oreo Birthday Cakess Are Specially Crafted With Mindful Of Oreo Lovers. Its A Chcolate Sponge Filled With Chcolate Cakes And Rich Gold Cream And Filled With Oreo Crackers To Give A Great Flavour On Each Bite. Enjoy This Oreo Chcolate Birthday Cake On Your Special Occasions."
+    },
+    {
+      "id": 12,
+      "name": "Baked Cheese",
+      "price": 2000,
+      "imageUrl": "assets/Bakery-images/baked-cheese-cake-for-birthday.jpg",
+      "category": "Cakes",
+      "stars": 5,
+      "deliveryTime": "1 hour to 2 hour",
+      "description": "A Cheesecake Factory Recipie That Impresses Everyone . This Magical Texture And Flavour Just Melts In Mouth , One Of The To Go Cakes In Our Brand. The Cookie Crumbs Thast Filled With Baked Cheese And A Little Honey On To Dresses With Chcolate Chips. Its Your Dream Come True. Try This On Your Special Occasion And Save It For Desserts."
+    },
+    {
+      "id": 13,
+      "name": "Fruity Mango",
+      "price": 700,
+      "imageUrl": "assets/Bakery-images/Fruity-mango-Strawberry-cake.jpg",
+      "category": "Cakes",
+      "stars": 4,
+      "deliveryTime": "30 mins to 40 mins",
+      "description": "Strawberries Are Queen , Red And Beautiful, Mangoes Are King, Mighty And Beautiful, Put Together For Your Togetherness In One Cake For You."
+    },
+    {
+      "id": 14,
+      "name": "Marble ButterScotch",
+      "price": 700,
+      "imageUrl": "assets/Bakery-images/Marble-Butter-Scotch-Cake-1.jpg",
+      "category": "Cakes",
+      "stars": 4.3,
+      "deliveryTime": "30 mins to 40 mins",
+      "description": "Marble On Floor, Marble On Mind, Now Marble On Cake, Caramelized Cashew Nuts Filled In Layers With No Preservatives."
+    },
+    {
+      "id": 15,
+      "name": "Strawberry Truffle",
+      "price": 700,
+      "imageUrl": "assets/Bakery-images/Stylish-Strawberry-Truffle-Chocolate-Cake.jpg",
+      "category": "Cakes",
+      "stars": 4.1,
+      "deliveryTime": "30 mins to 40 mins",
+      "description": "Strawberry And Chocolate, Did We Spell Heaven In A Different Way? You Are Right , Yes Have Your Heaven With Our Strawberry Chocolate Cake."
+    },
+    {
+      "id": 16,
+      "name": "Heart ButterScotch",
+      "price": 700,
+      "imageUrl": "assets/Bakery-images/Half-Heart-Butter-Scotch-Cake-1.jpg",
+      "category": "Cakes",
+      "stars": 4.4,
+      "deliveryTime": "30 mins to 40 mins",
+      "description": "Chocolate And Nuts What Better Combination Could There Be, Hope You Get The Best Combo Ever, Filled With Chocolate And Caramelized Butterscotch Nuts, Special Birthday Cake, Best Flavor Cake Made With The Top Most Ingredients."
+    },
+    {
+      "id": 17,
+      "name": "Plum-Cake",
+      "price": 850,
+      "imageUrl": "assets/Bakery-images/11.Veg-Plum-cake-.jpg",
+      "category": "Cakes",
+      "stars": 4.8,
+      "deliveryTime": "15 mins to 20 mins",
+      "description": "Our Veg Plum Cake is the guilt-free Christmas indulgence you have been waiting for. Whether you're an animal lover or just craving a slice of holiday magic without the eggs, this cake's got your back. Get ready to sleigh that dessert table!."
+    },
+    {
+      "id": 18,
+      "name": "Plum-Slices",
+      "price": 100,
+      "imageUrl": "assets/Bakery-images/16.-christmas-Plum-slices.jpg",
+      "category": "Cakes",
+      "stars": 4.1,
+      "deliveryTime": "5 mins to 10 mins",
+      "description": "Surprise your office or corporate clients with trays of our festive Christmas plum slices! These tasty plum treats are made with plump, juicy fruits and spices."
+    },
+    {
+      "id": 19,
+      "name": "Eggless Vanilla",
+      "price": 400,
+      "imageUrl": "assets/Bakery-images/11.-Pure-Eggless-Christmas-Vanilla-tea.jpg",
+      "category": "Cakes",
+      "stars": 5,
+      "deliveryTime": "15 mins to 20 mins",
+      "description": "Spread the warmth this holiday season with this elegant eggless vanilla tea cake, lovingly baked without eggs and presented in a beautiful Christmas tin."
+    },
+    {
+      "id": 20,
+      "name": "Eggless-Fruit",
+      "price": 200,
+      "imageUrl": "assets/Bakery-images/7.-Pure-Eggless-Classic-Christmas-Fruit.jpg",
+      "category": "Cakes",
+      "stars": 4.3,
+      "deliveryTime": "15 mins to 20 mins",
+      "description": "Gather around the Christmas tree and sink your teeth into this festive eggless fruit and nut cake. Share the holiday spirit by gifting this nostalgic cake to family, friends, clients and colleagues. May your days be merry and bright with this timeless Christmas confection!."
+    },
+    {
+      "id": 21,
+      "name": "Cookie Bliss",
+      "price": 100,
+      "imageUrl": "assets/Bakery-images/cookie-bliss_1.jpg",
+      "category": "Cookies",
+      "stars": 4.1,
+      "deliveryTime": "5 mins to 10 mins",
+      "description": "Delight in the sweetness of togetherness this Diwali with a symphony of flavours and indulgence! This curated assortment captures the essence of festivity, offering a perfect blend of classic and innovative cookies. It's the ultimate gift to create cherished moments, adding a touch of sweetness to your celebrations. Embrace the rich variety of flavours and thoughtful gifting, making this Diwali truly memorable for your loved ones."
+    },
+    {
+      "id": 22,
+      "name": "Cookies Hamper",
+      "price": 150,
+      "imageUrl": "assets/Bakery-images/candied-cookies-chocolate-hamper_1.jpg",
+      "category": "Cookies",
+      "stars": 4.5,
+      "deliveryTime": "5 mins to 10 mins",
+      "description": "Delight in the sweetness of togetherness this Diwali with a symphony of flavours and indulgence! This curated assortment captures the essence of festivity, offering a perfect blend of classic and innovative cookies. It's the ultimate gift to create cherished moments, adding a touch of sweetness to your celebrations. Embrace the rich variety of flavours and thoughtful gifting, making this Diwali truly memorable for your loved ones."
+    },
+    {
+      "id": 23,
+      "name": "Nuts and Cookies",
+      "price": 250,
+      "imageUrl": "assets/Bakery-images/nutty-goodness-and-cookie-comfort_1.jpg",
+      "category": "Cookies",
+      "stars": 4.3,
+      "deliveryTime": "5 mins to 10 mins",
+      "description": "Make this Diwali a taste sensation with our Diwali Gourmet Cookie Box, a medley of delectable flavours and festive cheer! Inside, you'll find an array of treats including delightful cookies and flavourful nuts. This extraordinary assortment is designed to delight the senses, making it the perfect gift for your loved ones to savour and enjoy during the festival of lights."
+    },
+    {
+      "id": 24,
+      "name": "Chocolate Cookies",
+      "price": 200,
+      "imageUrl": "assets/Bakery-images/cookies-lindt-chocolates-special_1.jpg",
+      "category": "Cookies",
+      "stars": 4.4,
+      "deliveryTime": "5 mins to 10 mins",
+      "description": "Make this Diwali a taste sensation with our Diwali Gourmet Cookie Box, a medley of delectable flavours and festive cheer! Inside, you'll find an array of treats including delightful cookies and flavourful nuts. This extraordinary assortment is designed to delight the senses, making it the perfect gift for your loved ones to savour and enjoy during the festival of lights."
+    },
+    {
+      "id": 25,
+      "name": "Chocolates Hamper",
+      "price": 400,
+      "imageUrl": "assets/Bakery-images/love-cookies-n-chocolates-hamper_1.jpg",
+      "category": "Cookies",
+      "stars": 4.7,
+      "deliveryTime": "5 mins to 10 mins",
+      "description": "Let your beloved indulge in the rich flavours of truffles that will tantalise their taste buds and experience pure bliss with butter cookies coated in luscious chocolate. For an extra touch of love, there are special heart-shaped chocolate truffles adorned with nuts and mixed berries. Even after the chocolates are savoured, the elegant box can be cherished as a timeless jewellery box, preserving sweet memories forever."
+    },
+    {
+      "id": 26,
+      "name": "Dairy Milk Basket",
+      "price": 850,
+      "imageUrl": "assets/Bakery-images/49715.jpg",
+      "category": "Chocolates",
+      "stars": 5,
+      "deliveryTime": "5 mins to 10 mins",
+      "description": "Chocolate: Dairy Milk chocolate (13.2 gm each), No of Chocolate: 10 Packing, Blue Net Packing Base: Wooden Basket"
+    },
+    {
+      "id": 27,
+      "name": "Two-Layer",
+      "price": 1200,
+      "imageUrl": "assets/Bakery-images/30541.jpg",
+      "category": "Chocolates",
+      "stars": 5,
+      "deliveryTime": "5 mins to 10 mins",
+      "description": "Chocolate: Dairy Milk Chocolates(13.2gm) Qty-10 + 5 Star Chocolate (10.1gm) Qty-20, No of Chocolate: 30, Base: Round Oasis/Thermacol Base, Fillers:  Seasonal Fillers, Bow: Golden Ribbon"
+    },
+    {
+      "id": 28,
+      "name": "Delight Assorted Box",
+      "price": 500,
+      "imageUrl": "assets/Bakery-images/57895.jpg",
+      "category": "Chocolates",
+      "stars": 4.5,
+      "deliveryTime": "5 mins to 10 mins",
+      "description": "Type - Chocolate Truffles, Model Name-Premium Chocolate Gift Box ( Pack of 12 ), Maximum Shelf Life-6 Months, Gourmet-Yes, With Nuts-Yes, Gift Pack-Yes, Food Preference-Vegetarian, Ingredients-Chocolate"
+    },
+    {
+      "id": 29,
+      "name": "Color Of Red",
+      "price": 850,
+      "imageUrl": "assets/Bakery-images/40355.jpg",
+      "category": "Chocolates",
+      "stars": 5,
+      "deliveryTime": "5 mins to 10 mins",
+      "description": "Flower Type: Red Roses, No of Flower: 7, Fillers: Seasonal Fillers, Base: Oasis/Thermocol Base, Chocolate: 10 Kitkat chocolates (18.5gm)"
+    },
+    {
+      "id": 30,
+      "name": "Festive Euphoria",
+      "price": 1650,
+      "imageUrl": "assets/Bakery-images/85488.jpg",
+      "category": "Chocolates",
+      "stars": 5,
+      "deliveryTime": "5 mins to 10 mins",
+      "description": "Beautiful box with 21 different chocolates, Assortment of soft filled chocolates like Mocca, Rose, Mint, etc., Nut-filled chocolates like Mocca, Caramel, Orange, Mint, Pineapple, Cranberry, etc., Nut-filled chocolates like Fruit n Nut, Roasted Almonds, etc., Includes crispy chocolates like Orange Crisp"
+    },
+    {
+      "id": 31,
+      "name": "Vanilla Cupcake",
+      "price": 400,
+      "imageUrl": "assets/Bakery-images/58422.jpg",
+      "category": "CupCakes",
+      "stars": 5,
+      "deliveryTime": "10 mins to 15 mins",
+      "description": "Cup Cake Flavour: Vanilla, Quantity: 4, Shape: Round, Type of Cup Cake: Cream."
+    },
+    {
+      "id": 32,
+      "name": "Truffle Cupcake",
+      "price": 600,
+      "imageUrl": "assets/Bakery-images/58421.jpg",
+      "category": "CupCakes",
+      "stars": 4.3,
+      "deliveryTime": "10 mins to 15 mins",
+      "description": "Cup Cake Flavour: Choco Chip, Quantity: 4, Shape: Round, Type of Cup Cake: Cream "
+    },
+    {
+      "id": 33,
+      "name": "Rainbow Cupcake",
+      "price": 600,
+      "imageUrl": "assets/Bakery-images/53335.jpg",
+      "category": "CupCakes",
+      "stars": 4.5,
+      "deliveryTime": "10 mins to 15 mins",
+      "description": "Cup Cake Flavour: Vanilla, Quantity: 4, Shape: Round, Type of Cup Cake: Cream "
+    },
+    {
+      "id": 34,
+      "name": "Chocolate Cupcake",
+      "price": 600,
+      "imageUrl": "assets/Bakery-images/41837.jpg",
+      "category": "CupCakes",
+      "stars": 4.2,
+      "deliveryTime": "10 mins to 15 mins",
+      "description": "Cup Cake Flavour: Chocolate, Quantity: 4, Shape: Round, Type of Cup Cake: Cream "
+    },
+    {
+      "id": 35,
+      "name": "Butterscotch Cupcake",
+      "price": 500,
+      "imageUrl": "assets/Bakery-images/41848.jpg",
+      "category": "CupCakes",
+      "stars": 4.6,
+      "deliveryTime": "10 mins to 15 mins",
+      "description": "Cup Cake Flavour: Butterscotch, Quantity: 4, Shape: Round, Type of Cup Cake: Cream "
+    },
+    {
+      "id": 36,
+      "name": "Trio Cupcake",
+      "price": 500,
+      "imageUrl": "assets/Bakery-images/53338.jpg",
+      "category": "CupCakes",
+      "stars": 4.1,
+      "deliveryTime": "10 mins to 15 mins",
+      "description": "Cup Cake Flavour: Choco Strawberry, Quantity: 4, Shape: Round, Type of Cup Cake: Cream "
+    },
+    {
+      "id": 37,
+      "name": "Green Cupcake",
+      "price": 500,
+      "imageUrl": "assets/Bakery-images/80325.jpg",
+      "category": "CupCakes",
+      "stars": 4.2,
+      "deliveryTime": "10 mins to 15 mins",
+      "description": "Cup Cake Flavour: Vanilla, Quantity: 4, Shape: Round, Type of Cup Cake: Cream "
+    },
+    {
+      "id": 38,
+      "name": "Fantasy Cupcake",
+      "price": 500,
+      "imageUrl": "assets/Bakery-images/53337.jpg",
+      "category": "CupCakes",
+      "stars": 5,
+      "deliveryTime": "10 mins to 15 mins",
+      "description": "Cup Cake Flavour: Vanilla, Quantity: 4, Shape: Round, Type of Cup Cake: Cream "
+    },
+    {
+      "id": 39,
+      "name": "Luxury Assortment",
+      "price": 1500,
+      "imageUrl": "assets/Bakery-images/72805.jpg",
+      "category": "Chocolates",
+      "stars": 5,
+      "deliveryTime": "10 mins to 15 mins",
+      "description": "Luxury Assortment Cookies Chocolate, Chocolate: 24pcs Cookies Chocolate, Cookies Chocolate Gift Pack, Weight: 250 Gm"
+    },
+    {
+      "id": 40,
+      "name": "Chocolate Truffles",
+      "price": 1300,
+      "imageUrl": "assets/Bakery-images/89864.jpg",
+      "category": "Chocolates",
+      "stars": 5,
+      "deliveryTime": "10 mins to 15 mins",
+      "description": "Luxury Assortment Cookies Chocolate, Chocolate: 24pcs Cookies Chocolate, Cookies Chocolate Gift Pack, Weight: 250 Gm"
+    }
+  ],
+  "userInformation": [
+    {
+      "id": 1,
+      "name": "Mohan",
+      "phoneNumber": "9092053331",
+      "emailAddress": "mohan01@gmail.com",
+      "password": "Mohan@01",
+      "address": {
+        "doorNo": "123",
+        "streetName": "Main Street",
+        "city": "NewYork",
+        "state": "USA",
+        "pincode": "12345"
+      }
+    },
+    {
+      "name": "Brock Lesnar",
+      "phoneNumber": "9876543210",
+      "emailAddress": "brock01@gmail.com",
+      "password": "brock@01",
+      "address": {
+        "doorNo": "5",
+        "streetName": "F5",
+        "city": "Suplex City",
+        "state": "USA",
+        "pincode": "54321"
+      },
+      "id": 2
+    },
+    {
+      "name": "Roman Reings",
+      "phoneNumber": "9834562178",
+      "emailAddress": "roman01@gmail.com",
+      "password": "87654321",
+      "address": {
+        "doorNo": "7",
+        "streetName": "Spear Street",
+        "city": "New York",
+        "state": "USA",
+        "pincode": "12345"
+      },
+      "id": 3
+    },
+    {
+      "name": "Damon Salvatore",
+      "phoneNumber": "9634789012",
+      "emailAddress": "damon01@gmail.com",
+      "password": "damon@01",
+      "address": {
+        "doorNo": "4",
+        "streetName": "Vampire Street",
+        "city": "Mystic Falls",
+        "state": "Virginia",
+        "pincode": "98765"
+      },
+      "id": 4
+    },
+    {
+      "name": "Adminstrator",
+      "phoneNumber": "1234567890",
+      "emailAddress": "admin@01",
+      "password": "admin@123",
+      "address": {
+        "doorNo": "1",
+        "streetName": "Computer Street",
+        "city": "CHENNAI",
+        "state": "Tamil Nadu",
+        "pincode": "60000"
+      },
+      "id": 5
+    },
+    {
+      "name": "Randy Orton",
+      "phoneNumber": "9832416785",
+      "emailAddress": "randy01@gmail.com",
+      "password": "randy@01",
+      "address": {
+        "doorNo": "3",
+        "streetName": "RKO Street",
+        "city": "New York",
+        "state": "USA",
+        "pincode": "50000"
+      },
+      "id": 6
+    },
+    {
+      "name": "Jennifer Aniston",
+      "phoneNumber": "9834671580",
+      "emailAddress": "jennifer01@gmail.com",
+      "password": "aniston@01",
+      "address": {
+        "doorNo": "7",
+        "streetName": "Friends Street",
+        "city": "New York",
+        "state": "USA",
+        "pincode": "12345"
+      },
+      "id": 7
+    },
+    {
+      "name": "Akash",
+      "phoneNumber": "9092053331",
+      "emailAddress": "akash01@gmail.com",
+      "password": "akash@01",
+      "address": {
+        "doorNo": "5",
+        "streetName": "2nd Street",
+        "city": "Chennai",
+        "state": "TamilNadu",
+        "pincode": "60012"
+      },
+      "id": 8
+    }
+  ],
+  "Orders": [
+    {
+      "name": "Mohan",
+      "phoneNumber": "9092053331",
+      "emailAddress": "mohan01@gmail.com",
+      "productName": "Butter Scotch",
+      "productPrice": 500,
+      "productType": "Cakes",
+      "cakeType": "Egg",
+      "cakeWeight": "2kg",
+      "quantity": 1,
+      "deliveryaddress": "NO:10, 1st Street, Ayanavaram, Chennai-12",
+      "dateandtime": "12/16/2023 18:38:13",
+      "paymentMode": "CashOnDelivery",
+      "total": 500,
+      "id": 1
+    },
+    {
+      "name": "Brock Lesnar",
+      "phoneNumber": "9876543210",
+      "emailAddress": "brock01@gmail.com",
+      "productName": "Cookies Hamper",
+      "productPrice": 150,
+      "productType": "Cookies",
+      "cakeType": "",
+      "cakeWeight": "",
+      "quantity": 2,
+      "deliveryaddress": "NO:5, 2nd Street, New York, USA-10",
+      "dateandtime": "12/16/2023 18:40:25",
+      "paymentMode": "CashOnDelivery",
+      "total": 300,
+      "id": 2
+    },
+    {
+      "name": "Roman Reings",
+      "phoneNumber": "9834562178",
+      "emailAddress": "roman01@gmail.com",
+      "productName": "Vanilla Cupcake",
+      "productPrice": 400,
+      "productType": "CupCakes",
+      "cakeType": "",
+      "cakeWeight": "",
+      "quantity": 3,
+      "deliveryaddress": "NO:100, 3rd Street, New York, USA-10",
+      "dateandtime": "12/16/2023 18:41:32",
+      "paymentMode": "CashOnDelivery",
+      "total": 1200,
+      "id": 3
+    },
+    {
+      "name": "Damon Salvatore",
+      "phoneNumber": "9634789012",
+      "emailAddress": "damon01@gmail.com",
+      "productName": "Color Of Red",
+      "productPrice": 850,
+      "productType": "Chocolates",
+      "cakeType": "",
+      "cakeWeight": "",
+      "quantity": 2,
+      "deliveryaddress": "NO:2, Vampire Street, Mystic Falls, Virginia-10",
+      "dateandtime": "12/16/2023 18:45:33",
+      "paymentMode": "CashOnDelivery",
+      "total": 1700,
+      "id": 4
+    },
+    {
+      "name": "Randy Orton",
+      "phoneNumber": "9832416785",
+      "emailAddress": "randy01@gmail.com",
+      "productName": "Rich-Rasamalai",
+      "productPrice": 2000,
+      "productType": "Cakes",
+      "cakeType": "Egg",
+      "cakeWeight": "3kg",
+      "quantity": 1,
+      "deliveryaddress": "NO-8, Viper Street, New York, USA-10",
+      "dateandtime": "12/16/2023 18:47:40",
+      "paymentMode": "CashOnDelivery",
+      "total": 2000,
+      "id": 5
+    },
+    {
+      "name": "Jennifer Aniston",
+      "phoneNumber": "9834671580",
+      "emailAddress": "jennifer01@gmail.com",
+      "productName": "Butterscotch Cupcake",
+      "productPrice": 500,
+      "productType": "CupCakes",
+      "cakeType": "",
+      "cakeWeight": "",
+      "quantity": 1,
+      "deliveryaddress": "NO:10, Friends Street, New York, USA-10",
+      "dateandtime": "12/16/2023 19:02:35",
+      "paymentMode": "CashOnDelivery",
+      "total": 500,
+      "id": 6
+    },
+    {
+      "name": "Akash",
+      "phoneNumber": "9092053331",
+      "emailAddress": "akash01@gmail.com",
+      "productName": "Trio Cupcake",
+      "productPrice": 500,
+      "productType": "CupCakes",
+      "cakeType": "",
+      "cakeWeight": "",
+      "quantity": 3,
+      "deliveryaddress": "NO:10, 2nd Street, Nammalwarpet, Chennai-12",
+      "dateandtime": "12/18/2023 16:56:23",
+      "paymentMode": "CashOnDelivery",
+      "total": 1500,
+      "id": 7
+    }
+  ]
+}

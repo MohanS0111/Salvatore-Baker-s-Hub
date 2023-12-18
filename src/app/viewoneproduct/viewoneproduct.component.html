@@ -1,0 +1,25 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+
+<div class="oneProduct">
+    <img class="image" src="{{ viewOneProduct.imageUrl }}"width="100%"/>
+    <div class="productDetails">
+         <h1 class="title">{{viewOneProduct.name}}</h1>
+        
+         <h2 class="price">Price : &#8377;{{viewOneProduct.price}}</h2>
+         <h2 class="description">Description:</h2>
+         <h3 class="des-para">{{viewOneProduct.description}}</h3>
+         <h2 class="category">Category : {{viewOneProduct.category}}</h2>
+         <h2 class="rating">Rating <span class="star-icon">&#9733;</span>  : {{viewOneProduct.stars}}</h2>
+         <h2 class="deliveryTime">Delivery Time : {{viewOneProduct.deliveryTime}}</h2>
+
+         <a *ngIf="this.userauth.isUserLoggedIn==true" routerLink="Place-order" class="add-to-cart-button">Place Order</a>
+         <h3 class="info" *ngIf="this.userauth.isUserLoggedIn==false">Please Login To Place Order</h3>
+         <h4 class="info" *ngIf="this.userauth.isUserLoggedIn==false"><a routerLink="/user-login">Click Here To Login</a></h4>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,65 @@
+<div class="add-note-container">
+    <h2>{{mainTitle}}</h2>
+    <form [formGroup]="addProductForm">
+       <mat-form-field class="example-full-width">
+          <mat-label>Add Product Name</mat-label>
+          <input matInput placeholder="Add Name" name="name" formControlName="name" [(ngModel)]="addedProduct.name">
+          <mat-error class="error" *ngIf="name?.errors?.['required']">
+            Name is required
+          </mat-error>
+       </mat-form-field>
+  
+       <mat-form-field class="example-full-width">
+         <mat-label>Add Product Price</mat-label>
+         <input matInput placeholder="Add Price" name="price" formControlName="price" [(ngModel)]="addedProduct.price">
+         <mat-error class="error" *ngIf="price?.errors?.['required']">
+            Price is required
+          </mat-error>
+       </mat-form-field>
+
+       <mat-form-field class="example-full-width">
+        <mat-label>Add Image URL</mat-label>
+        <input matInput placeholder="Add Image URL" name="imageUrl" formControlName="imageUrl" [(ngModel)]="addedProduct.imageUrl">
+        <mat-error class="error" *ngIf="imageUrl?.errors?.['required']">
+            Image URL is required
+        </mat-error>
+    </mat-form-field>
+
+       <mat-form-field class="example-full-width">
+         <mat-label>Add Product Category</mat-label>
+         <input matInput placeholder="Add Category" name="category" formControlName="category" [(ngModel)]="addedProduct.category">
+         <mat-error class="error" *ngIf="category?.errors?.['required']">
+            Category is required
+         </mat-error>
+       </mat-form-field>
+
+       <mat-form-field class="example-full-width">
+        <mat-label>Add Rating</mat-label>
+        <input matInput placeholder="Add Rating" name="stars" formControlName="stars" [(ngModel)]="addedProduct.stars">
+        <mat-error class="error" *ngIf="stars?.errors?.['required']">
+            Rating is required
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Add DeliveryTime</mat-label>
+        <input matInput placeholder="Add DeliveryTime" name="deliveryTime" formControlName="deliveryTime" [(ngModel)]="addedProduct.deliveryTime">
+        <mat-error class="error" *ngIf="deliveryTime?.errors?.['required']">
+            DeliveryTime is required
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Add Description</mat-label>
+        <textarea matInput placeholder="Add Description" name="description" formControlName="description" [(ngModel)]="addedProduct.description"></textarea>
+        <mat-error class="error" *ngIf="description?.errors?.['required']">
+            Description is required
+        </mat-error>
+      </mat-form-field>
+
+   </form>
+
+    <div class="example-button-row">
+      <button [disabled]="!addProductForm.valid" type="submit" (click) = "addNewProduct()">Save</button>
+    </div>
+</div>    

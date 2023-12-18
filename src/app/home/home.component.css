@@ -1,0 +1,67 @@
+.grid-container {
+  margin-left: 1%;
+  margin-top: 1%;
+  gap: 20px;
+}
+
+.mat-h1{
+  color: red;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.starting-part{
+  grid-column: span 2
+}
+
+.title{
+  color: red;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.price{
+  color: black;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.image{
+  border-radius: 10px;
+}
+
+.star{
+  color: black;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.star-icon {
+  color: gold
+}
+
+.dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  background-color: rgba(245, 245, 245, 0.886);
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.dashboard-card-content {
+  text-align: center;
+}
+
+.dashboard-card:hover{
+  opacity: 0.9;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.dashboard-card:active{
+  opacity: 20;
+  cursor: pointer;
+}

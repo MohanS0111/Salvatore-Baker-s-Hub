@@ -1,0 +1,16 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+<div class = "search-area">
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+            <mat-label class="placeHolder">Search By Name</mat-label>
+            <input matInput [(ngModel)]="searchInput" name="searchInput"> 
+        </mat-form-field>
+    </form>
+    <button class="search-icon" (click)="search()" mat-fab color="Basic" aria-label="Example icon button with a home icon">
+        <mat-icon class="icons">search</mat-icon>
+    </button>  
+</div>
+

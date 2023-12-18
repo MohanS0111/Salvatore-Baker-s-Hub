@@ -1,0 +1,35 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+<div class="user-details-container">
+    <h2>User Details</h2>
+  
+    <table>
+      <tr>
+        <th>User ID</th>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th>Email Address</th>
+        <th>Password</th>
+        <th>Address</th>
+      </tr>
+      <tr *ngFor = "let userDetails of fetchedUsers">
+        <td>{{ userDetails.id }}</td>
+        <td>{{ userDetails.name}}</td>
+        <td>{{ userDetails.phoneNumber }}</td>
+        <td>{{ userDetails.emailAddress }}</td>
+        <td>{{ userDetails.password }}</td>
+        <td class="address-column">
+          <ul>
+            <li>Door No: {{ userDetails.address.doorNo }}</li>
+            <li>Street Name: {{ userDetails.address.streetName }}</li>
+            <li>City: {{ userDetails.address.city }}</li>
+            <li>State: {{ userDetails.address.state }}</li>
+            <li>Pincode: {{ userDetails.address.pincode }}</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
